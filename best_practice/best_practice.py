@@ -35,11 +35,11 @@ if __name__ == "__main__":
     larger_or_difference_number(5, 3)
 
     # zero case
-    print(larger_or_difference_number(0, 7))  # -> "Zero found"
+    print(larger_or_difference_number(0, 7))  # will return "Zero found"
 
     # negatives/mixed signs
-    print(larger_or_difference_number(-2, 5))  # -> -7
-    print(larger_or_difference_number(2, -5))  # -> -7
+    print(larger_or_difference_number(-2, 5))  # will return -7
+    print(larger_or_difference_number(2, -5))  # will return -7
 
     # non-numeric input 
     print(larger_or_difference_number("5", 3))  # this will give the following "Error: please pass numbers .. int or float."
